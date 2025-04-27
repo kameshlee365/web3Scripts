@@ -1,0 +1,16 @@
+# NAME: Talktone
+# AUTHOR: Talktone
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-04-27 16:18:28
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+DOMAIN-SUFFIX,tktn.at
+DOMAIN-SUFFIX,tktn.be
+DOMAIN-SUFFIX,vm.talkatone.com
+DOMAIN-SUFFIX,tenor.com
+
+
+
+
+
