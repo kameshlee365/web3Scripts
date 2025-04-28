@@ -14,6 +14,11 @@ DOMAIN-SUFFIX,stun4.l.google.com
 DOMAIN,voice.google.com
 DOMAIN,clients6.google.com
 DOMAIN-SUFFIX,notifications.google.com
+DOMAIN-SUFFIX,hushed.com
+DOMAIN-SUFFIX,affinityclick.com
+DOMAIN-SUFFIX,virgilsecurity.com
+DOMAIN-SUFFIX,pushwoosh.com
+DOMAIN-SUFFIX,twilio.com
 IP-CIDR,64.233.160.0/19,no-resolve
 IP-CIDR,66.102.0.0/20,no-resolve
 IP-CIDR,172.217.0.0/16,no-resolve
