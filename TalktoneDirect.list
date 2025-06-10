@@ -3,7 +3,7 @@
 # DESCRIPTION: TalktoneDirect
 # TAG: TalktoneDirect
 # VERSION: 1.2
-# LASTEDIT: 2023-10-04
+# LASTEDIT: 2025-06-09
 # TAG: TalktoneDirect
 DOMAIN-SUFFIX,agkn.com
 DOMAIN-SUFFIX,cohere.com
@@ -21,4 +21,3 @@ IP-CIDR,50.117.27.0/24,no-resolve
 IP-CIDR,63.251.124.0/24,no-resolve
 IP-CIDR,69.46.75.0/24,no-resolve
 IP-CIDR,120.24.79.115/24,no-resolve
-IP-CIDR,10.0.0.18/24,no-resolve
