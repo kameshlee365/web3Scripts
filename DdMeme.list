@@ -1,18 +1,17 @@
-rules:
-  - DOMAIN-SUFFIX,douyin.com,Douyin
-  - DOMAIN-SUFFIX,byteimg.com,Douyin
-  - DOMAIN-SUFFIX,bytedance.com,Douyin
-  - DOMAIN-SUFFIX,ibytedapm.com,Douyin
-  - DOMAIN-SUFFIX,bytegoofy.com,Douyin
-  - DOMAIN-SUFFIX,byted-static.com,Douyin
-  - DOMAIN-SUFFIX,bytedanceapi.com,Douyin
-  - DOMAIN-SUFFIX,amemv.com,Douyin
-  - DOMAIN-SUFFIX,snssdk.com,Douyin
-  - DOMAIN-SUFFIX,pstatp.com,Douyin
-  - DOMAIN-SUFFIX,iesdouyin.com,Douyin
-  - DOMAIN-SUFFIX,360buyimg.com,Douyin
-  - DOMAIN-SUFFIX,huoshan.com,Douyin
-  - DOMAIN-SUFFIX,lf127.net,Douyin
-  - DOMAIN-SUFFIX,lf6-cdn-tos.bytecdntp.com,Douyin
-  - DOMAIN-SUFFIX,lf3-cdn-tos.bytecdntp.com,Douyin
-  - DOMAIN-SUFFIX,lf-dycdn-tos.bytecdntp.com,Douyin
+DOMAIN-SUFFIX.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,ibytedapm.com
+DOMAIN-SUFFIX,bytegoofy.com
+DOMAIN-SUFFIX,byted-static.com
+DOMAIN-SUFFIX,bytedanceapi.com
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,iesdouyin.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,huoshan.com
+DOMAIN-SUFFIX,lf127.net
+DOMAIN-SUFFIX,lf6-cdn-tos.bytecdntp.com
+DOMAIN-SUFFIX,lf3-cdn-tos.bytecdntp.com
+DOMAIN-SUFFIX,lf-dycdn-tos.bytecdntp.com
