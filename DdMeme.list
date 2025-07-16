@@ -1,0 +1,18 @@
+rules:
+  - DOMAIN-SUFFIX,douyin.com,Douyin
+  - DOMAIN-SUFFIX,byteimg.com,Douyin
+  - DOMAIN-SUFFIX,bytedance.com,Douyin
+  - DOMAIN-SUFFIX,ibytedapm.com,Douyin
+  - DOMAIN-SUFFIX,bytegoofy.com,Douyin
+  - DOMAIN-SUFFIX,byted-static.com,Douyin
+  - DOMAIN-SUFFIX,bytedanceapi.com,Douyin
+  - DOMAIN-SUFFIX,amemv.com,Douyin
+  - DOMAIN-SUFFIX,snssdk.com,Douyin
+  - DOMAIN-SUFFIX,pstatp.com,Douyin
+  - DOMAIN-SUFFIX,iesdouyin.com,Douyin
+  - DOMAIN-SUFFIX,360buyimg.com,Douyin
+  - DOMAIN-SUFFIX,huoshan.com,Douyin
+  - DOMAIN-SUFFIX,lf127.net,Douyin
+  - DOMAIN-SUFFIX,lf6-cdn-tos.bytecdntp.com,Douyin
+  - DOMAIN-SUFFIX,lf3-cdn-tos.bytecdntp.com,Douyin
+  - DOMAIN-SUFFIX,lf-dycdn-tos.bytecdntp.com,Douyin
