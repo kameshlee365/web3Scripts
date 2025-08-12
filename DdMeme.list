@@ -16,9 +16,9 @@ DOMAIN-SUFFIX,lf3-cdn-tos.bytecdntp.com
 DOMAIN-SUFFIX,lf-dycdn-tos.bytecdntp.com
 DOMAIN,lf3-static.bytednsdoc.com
 DOMAIN,v5-dy-o-abtest.zjcdn.com
-DOMAIN-SUFFIX,douyincdn.com
-DOMAIN-SUFFIX,douyinpic.com
-DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyincdn.com,no-resolve
+DOMAIN-SUFFIX,douyinpic.com,no-resolve
+DOMAIN-SUFFIX,douyin.com,no-resolve
 DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,idouyinvod.com
