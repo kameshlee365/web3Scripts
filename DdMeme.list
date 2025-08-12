@@ -1,28 +1,21 @@
-DOMAIN-SUFFIX,byteimg.com
-DOMAIN-SUFFIX,bytedance.com
-DOMAIN-SUFFIX,ibytedapm.com
-DOMAIN-SUFFIX,bytegoofy.com
-DOMAIN-SUFFIX,byted-static.com
-DOMAIN-SUFFIX,bytedanceapi.com
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,iesdouyin.com
-DOMAIN-SUFFIX,360buyimg.com
-DOMAIN-SUFFIX,huoshan.com
-DOMAIN-SUFFIX,lf127.net
-DOMAIN-SUFFIX,lf6-cdn-tos.bytecdntp.com
-DOMAIN-SUFFIX,lf3-cdn-tos.bytecdntp.com
-DOMAIN-SUFFIX,lf-dycdn-tos.bytecdntp.com
-DOMAIN,lf3-static.bytednsdoc.com
-DOMAIN,v5-dy-o-abtest.zjcdn.com
-DOMAIN-SUFFIX,douyincdn.com,no-resolve
-DOMAIN-SUFFIX,douyinpic.com,no-resolve
-DOMAIN-SUFFIX,douyin.com,no-resolve
-DOMAIN-SUFFIX,douyinstatic.com
-DOMAIN-SUFFIX,douyinvod.com
-DOMAIN-SUFFIX,idouyinvod.com
-DOMAIN-SUFFIX,ixigua.com
-DOMAIN-SUFFIX,ixiguavideo.com
-DOMAIN-SUFFIX,toutiao.com
-DOMAIN-SUFFIX,zijieapi.com
+# NAME: DouYin
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:18:50
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 11
+# TOTAL: 13
+payload:
+  - DOMAIN,lf3-static.bytednsdoc.com
+  - DOMAIN,v5-dy-o-abtest.zjcdn.com
+  - DOMAIN-SUFFIX,amemv.com
+  - DOMAIN-SUFFIX,douyincdn.com
+  - DOMAIN-SUFFIX,douyinpic.com
+  - DOMAIN-SUFFIX,douyinstatic.com
+  - DOMAIN-SUFFIX,douyinvod.com
+  - DOMAIN-SUFFIX,idouyinvod.com
+  - DOMAIN-SUFFIX,ixigua.com
+  - DOMAIN-SUFFIX,ixiguavideo.com
+  - DOMAIN-SUFFIX,pstatp.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,toutiao.com
