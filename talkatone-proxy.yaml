@@ -1,0 +1,14 @@
+# Talkatone 代理规则
+payload:
+  # 节点检测地址
+  - DOMAIN-KEYWORD,relay-
+  - DOMAIN-SUFFIX,tktn.be
+  
+  # 主要服务域名
+  - DOMAIN-SUFFIX,tktn.at
+  
+  # 语音留言地址
+  - DOMAIN-SUFFIX,vm.talkatone.com
+  
+  # 贴图服务
+  - DOMAIN-SUFFIX,tenor.com
