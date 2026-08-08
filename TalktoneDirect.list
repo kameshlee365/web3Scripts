@@ -1,10 +1,9 @@
-# NAME: TalktoneDirect
-# AUTHOR: TalktoneDirect
-# DESCRIPTION: TalktoneDirect
-# TAG: TalktoneDirect
-# VERSION: 1.2
-# LASTEDIT: 2025-06-09
-# TAG: TalktoneDirect
+# 仓库参考：https://github.com/LOWERTOP/Shadowrocket-First
+# 类型选择：RULE-SET
+# 策略建议：DIRECT
+
+# 以下均为广告/统计/SDK 域名，不涉及登录鉴权和通话信令，
+# 直连即可，不占用代理带宽
 DOMAIN-SUFFIX,agkn.com
 DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,crashlytics.com
@@ -13,16 +12,8 @@ DOMAIN-SUFFIX,inner-active.mobi
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,kochava.com
 DOMAIN-SUFFIX,mobilefuse.com
-DOMAIN-SUFFIX,talkatone.com
-DOMAIN-SUFFIX,infa.com
+
+# 对应 IP 段，同样直连
 IP-CIDR,205.164.56.0/24,no-resolve
 IP-CIDR,216.172.154.0/24,no-resolve
 IP-CIDR,50.117.27.0/24,no-resolve
-IP-CIDR,63.251.124.0/24,no-resolve
-IP-CIDR,69.46.75.0/24,no-resolve
-#IP-CIDR,120.24.79.115/32,no-resolve
-IP-CIDR,202.105.129.74/32,no-resolve
-IP-CIDR,120.77.94.216/32,no-resolve
-#IP-CIDR,10.0.0.18/32,no-resolve
-
-
