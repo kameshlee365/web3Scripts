@@ -1,26 +1,17 @@
-# NAME: Talktone
-# AUTHOR: Talktone
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-04-27 16:18:28
-# DOMAIN: 0
-# DOMAIN-SUFFIX: 4
-# TOTAL: 4
-DOMAIN-SUFFIX,mobilefuse.com
-DOMAIN-SUFFIX,inmobi.com
-DOMAIN-SUFFIX,crashlytics.com
+# 仓库参考：https://github.com/LOWERTOP/Shadowrocket-First
+# 类型选择：RULE-SET
+# 策略建议：Talkatone（你自建的美区住宅代理策略组，不要用 PROXY 通用组）
+
+# 节点质量判断地址，需要固定走住宅代理
+DOMAIN-WILDCARD,*-sjc-*.tktn.be
+
+# 以下域名必须走代理，否则登录/通话会失败
 DOMAIN-SUFFIX,talkatone.com
-DOMAIN-SUFFIX,kochava.com
-DOMAIN-SUFFIX,tktn.be
-DOMAIN-SUFFIX,cohere.com
-DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,agkn.com
 DOMAIN-SUFFIX,tktn.at
-IP-CIDR,50.117.27.0/24,no-resolve
-IP-CIDR,69.46.75.0/24,no-resolve
-IP-CIDR,205.164.56.0/24,no-resolve
-IP-CIDR,63.251.124.0/24,no-resolve
+DOMAIN-SUFFIX,tktn.be
 
+# 语音留言地址，需要代理
+DOMAIN-SUFFIX,vm.talkatone.com
 
-
-
-
+# 贴图服务地址，需要代理
+DOMAIN-SUFFIX,tenor.com
