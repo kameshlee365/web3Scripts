@@ -1,25 +1,21 @@
 # NAME: GoogleVoice
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:59
-# DOMAIN: 1
-# TOTAL: 1
-DOMAIN,lens.l.google.com
+# 维护：kameshlee365（原始 1 行来自 blackmatrix7，之后自行扩充）
+# UPDATED: 2026-10-27
+# 2026-10-27：删除 lens.l.google.com（Google Lens，与 Google Voice 无关）
+#             删除 4 段 Google 通用 IP（64.233.160.0/19、66.102.0.0/20、172.217.0.0/16、108.177.0.0/17），
+#             它们覆盖整个 Google，不只是 Google Voice。只保留域名。
+# 用于 Stash（GoogleVoice 规则集）与 Shadowrocket，均走「美国节点」，排在 DNSTest 之前。
+DOMAIN,voice.google.com
+DOMAIN,clients6.google.com
+DOMAIN-SUFFIX,notifications.google.com
 DOMAIN-SUFFIX,rtc.google.com
 DOMAIN-SUFFIX,stun.l.google.com
 DOMAIN-SUFFIX,stun1.l.google.com
 DOMAIN-SUFFIX,stun2.l.google.com
 DOMAIN-SUFFIX,stun3.l.google.com
 DOMAIN-SUFFIX,stun4.l.google.com
-DOMAIN,voice.google.com
-DOMAIN,clients6.google.com
-DOMAIN-SUFFIX,notifications.google.com
 DOMAIN-SUFFIX,hushed.com
 DOMAIN-SUFFIX,affinityclick.com
 DOMAIN-SUFFIX,virgilsecurity.com
 DOMAIN-SUFFIX,pushwoosh.com
 DOMAIN-SUFFIX,twilio.com
-IP-CIDR,64.233.160.0/19,no-resolve
-IP-CIDR,66.102.0.0/20,no-resolve
-IP-CIDR,172.217.0.0/16,no-resolve
-IP-CIDR,108.177.0.0/17,no-resolve
